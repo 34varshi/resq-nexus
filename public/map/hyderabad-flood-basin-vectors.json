@@ -1,0 +1,134 @@
+{
+  "type": "FeatureCollection",
+  "name": "Hyderabad Sector 4 Disaster Vectors & Inundation Boundaries",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "metadata": {
+    "incidentId": "INC-104",
+    "region": "Hyderabad / Musi River Drainage Basin",
+    "hydrologicalStatus": "CREST_WARNING_ACTIVE",
+    "lastVectorUpdate": "2026-10-06T05:30:00Z",
+    "serviceWorkerCached": true
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ZONE-ALPHA-01",
+      "properties": {
+        "zoneName": "Musi South Lowlands (Sector 4C)",
+        "hazardLevel": "CRITICAL_SURGE",
+        "inundationDepthMeters": 1.45,
+        "populationAtRisk": 14200,
+        "evacuationStatus": "MANDATORY_IMMEDIATE",
+        "color": "#EF4444"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [78.472, 17.362],
+            [78.495, 17.366],
+            [78.512, 17.351],
+            [78.491, 17.342],
+            [78.468, 17.352],
+            [78.472, 17.362]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ZONE-BETA-02",
+      "properties": {
+        "zoneName": "Amberpet Confluence Basin",
+        "hazardLevel": "HIGH_SURGE",
+        "inundationDepthMeters": 0.85,
+        "populationAtRisk": 8600,
+        "evacuationStatus": "ADVISORY_RELOCATION",
+        "color": "#F59E0B"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [78.515, 17.382],
+            [78.538, 17.385],
+            [78.546, 17.368],
+            [78.522, 17.364],
+            [78.515, 17.382]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-EVAC-NORTH",
+      "properties": {
+        "corridorName": "Uppal - Habsiguda High-Ground Extraction Spine",
+        "status": "CLEAR_ACCESSIBLE",
+        "elevationAvgMeters": 518,
+        "maxVehicleClearanceMeters": 4.5,
+        "color": "#10B981"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [78.482, 17.368],
+          [78.490, 17.385],
+          [78.502, 17.402],
+          [78.520, 17.415]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-EVAC-WEST",
+      "properties": {
+        "corridorName": "Mehdipatnam Ridge Evacuation Arterial",
+        "status": "CAUTION_HEAVY_TRAFFIC",
+        "elevationAvgMeters": 530,
+        "color": "#38BDF8"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [78.465, 17.355],
+          [78.452, 17.370],
+          [78.441, 17.390]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "OBSTRUCTION-BRIDGE-01",
+      "properties": {
+        "name": "Chaderghat Causeway Bridge",
+        "status": "SUBMERGED_CLOSED",
+        "waterAboveDeckMeters": 0.6,
+        "reportedBy": "NDRF Recon Team Alpha",
+        "color": "#DC2626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.488, 17.371]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "OBSTRUCTION-BRIDGE-02",
+      "properties": {
+        "name": "Moosarambagh Low-Level Bridge",
+        "status": "STRUCTURAL_RISK_CLOSED",
+        "color": "#DC2626"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.508, 17.369]
+      }
+    }
+  ]
+}

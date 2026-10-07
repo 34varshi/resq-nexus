@@ -1,0 +1,108 @@
+{
+  "type": "FeatureCollection",
+  "name": "Disaster Critical Infrastructure & Relief Nodes",
+  "metadata": {
+    "cachedOffline": true,
+    "source": "State Disaster Response Emergency Mapping Agency",
+    "updated": "2026-10-06T05:30:00Z"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "INFRA-MED-01",
+      "properties": {
+        "name": "Osmania General Field Triage Wing",
+        "category": "TRAUMA_CENTER",
+        "emergencyBeds": 180,
+        "availableBeds": 34,
+        "backupPowerHours": 72,
+        "contactRadio": "CH-16 TAC-MED",
+        "status": "OPERATIONAL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.473, 17.378]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INFRA-MED-02",
+      "properties": {
+        "name": "Gandhi Hospital Emergency Complex",
+        "category": "REGIONAL_REFERRAL",
+        "emergencyBeds": 320,
+        "availableBeds": 78,
+        "backupPowerHours": 120,
+        "contactRadio": "CH-14 MED",
+        "status": "OPERATIONAL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.503, 17.423]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INFRA-HELI-01",
+      "properties": {
+        "name": "Helipad LZ-Alpha (Gymkhana Grounds)",
+        "category": "AIR_EVAC_LZ",
+        "helicopterCapacity": 3,
+        "elevationMeters": 535,
+        "nightVisionCapable": true,
+        "status": "CLEAR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.498, 17.439]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INFRA-HELI-02",
+      "properties": {
+        "name": "Helipad LZ-Bravo (LB Stadium High Deck)",
+        "category": "AIR_EVAC_LZ",
+        "helicopterCapacity": 2,
+        "elevationMeters": 520,
+        "nightVisionCapable": true,
+        "status": "CLEAR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.476, 17.399]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INFRA-WATER-01",
+      "properties": {
+        "name": "Amberpet Bulk RO Water Distribution Point",
+        "category": "POTABLE_WATER_DEPOT",
+        "dailySupplyLiters": 150000,
+        "status": "OPERATIONAL",
+        "tankerFillSlots": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.519, 17.387]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "INFRA-DEPOT-01",
+      "properties": {
+        "name": "Uppal Central Disaster Logistics Warehouse",
+        "category": "STRATEGIC_RELIEF_DEPOT",
+        "rationPacks": 45000,
+        "lifeJackets": 1200,
+        "generatorSets": 48,
+        "status": "ACTIVE_DISPATCHING"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.558, 17.401]
+      }
+    }
+  ]
+}

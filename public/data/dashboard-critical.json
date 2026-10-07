@@ -1,0 +1,38 @@
+{
+  "system": "ResQ Nexus Disaster Operations Management",
+  "snapshotVersion": "2.4.0",
+  "generatedAt": "2026-10-06T05:30:00Z",
+  "activeDisasterSector": "INC-104: Hyderabad Urban Inundation",
+  "severity": "CRITICAL_LEVEL_4",
+  "metrics": {
+    "activeIncidents": 12,
+    "criticalRequests": 28,
+    "peopleAffected": 18420,
+    "availableResourcesPercent": 74,
+    "activeResponseTeams": 17,
+    "shelterCapacityPercent": 68,
+    "resourceShortagesCount": 6
+  },
+  "criticalAlertsSummary": [
+    {
+      "id": "ALT-901",
+      "severity": "CRITICAL",
+      "message": "Flood surge breach in Sector 4 lowlands; 120 trapped at Amberpet Community Center."
+    },
+    {
+      "id": "ALT-902",
+      "severity": "HIGH",
+      "message": "Moosarambagh bridge submerged; rerouting ambulances via Uppal high-ground spine."
+    },
+    {
+      "id": "ALT-903",
+      "severity": "HIGH",
+      "message": "Critical insulin & pediatric antibiotic shortage flagged at Relief Camp Alpha."
+    }
+  ],
+  "serviceWorkerPolicy": {
+    "strategy": "StaleWhileRevalidateWithOutbox",
+    "cacheName": "resq-nexus-api-cache",
+    "offlineRetentionDays": 30
+  }
+}
